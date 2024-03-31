@@ -17,7 +17,8 @@ class Director:
 
 
 class Builder:
-    """Abstract Builder --> Create a Car object and keeps its attributes"""
+    """Abstract Builder --> Interface
+    Create a Car object and keeps its attributes"""
 
     def __init__(self):
         self.car = None
@@ -27,7 +28,9 @@ class Builder:
 
 
 class SkyLarkBuilder(Builder):
-    """Concerte Builder --> Provide parts and tools to work on
+    """
+    Concerte Builder --> Implements the interface
+    Provide parts and tools to work on.
     Provide methods to be used by Director Class
     """
 

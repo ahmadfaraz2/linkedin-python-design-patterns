@@ -19,7 +19,7 @@ class Cat:
 
 
 def get_pet(pet="dog"):
-    """The Factory Method"""
+    """The Factory Function"""
 
     pets = dict(dog=Dog("Tomy"), cat=Cat("Manno"))
     return pets[pet]
